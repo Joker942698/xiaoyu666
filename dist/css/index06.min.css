@@ -1,0 +1,406 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+.col-lg-1 {
+  padding: 0;
+  margin: 0;
+}
+
+* b {
+  color: red;
+  margin-right: 6px;
+}
+
+.first .logo {
+  width: 230px;
+  height: 116px;
+}
+
+.container .tittle {
+  font-size: 36px;
+  color: #5a646d;
+  line-height: 36px;
+  padding-left: 554px;
+  padding-bottom: 30px;
+}
+
+.container .phone {
+  padding-bottom: 23px;
+}
+
+.container .phone b {
+  padding-left: 368px;
+  line-height: 36px;
+}
+
+.container .phone .identifying {
+  margin-left: 15px;
+  width: 49px;
+  line-height: 36px;
+}
+
+.container .phone input {
+  outline: none;
+  width: 350px;
+  height: 36px;
+  padding: 2px;
+  padding-right: 2px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background: url(../../dist/img/img.06/-1.png) no-repeat 318px 5px;
+}
+
+.container .phone .helpblock {
+  width: 184px;
+  margin-left: 277px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fbf0ef;
+  border: 1px solid #eeb5b0;
+  color: #d23f33;
+  padding: 2px 10px;
+  display: none;
+}
+
+.container .pwd b {
+  padding-left: 352px;
+  line-height: 36px;
+}
+
+.container .pwd .identifying {
+  margin-left: 15px;
+  width: 65px;
+  line-height: 36px;
+}
+
+.container .pwd input {
+  outline: none;
+  width: 350px;
+  height: 36px;
+  padding: 2px;
+  padding-right: 2px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background: url(../../dist/img/img.06/1.png) no-repeat 318px 5px;
+}
+
+.container .pwd .helpblock {
+  width: 198px;
+  margin-left: 277px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fbf0ef;
+  border: 1px solid #eeb5b0;
+  color: #d23f33;
+  padding: 2px 10px;
+  display: none;
+}
+
+.container .safety {
+  font-size: 14px;
+  padding-left: 603px;
+  padding-top: 8px;
+  padding-bottom: 23px;
+}
+
+.container .safety .identifying {
+  width: 65px;
+  line-height: 18px;
+}
+
+.container .safety .show {
+  width: 120px;
+}
+
+.container .safety .show p {
+  width: 34px;
+  margin-right: 2px;
+  display: inline-block;
+  line-height: 18px;
+  text-align: center;
+  background: #cccccc;
+  color: white;
+}
+
+.container .yes {
+  padding-bottom: 23px;
+}
+
+.container .yes b {
+  padding-left: 352px;
+  line-height: 36px;
+}
+
+.container .yes .identifying {
+  margin-left: 15px;
+  width: 65px;
+  line-height: 36px;
+}
+
+.container .yes input {
+  outline: none;
+  width: 350px;
+  height: 36px;
+  padding: 2px;
+  padding-right: 2px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background: url(../../dist/img/img.06/1.png) no-repeat 318px 5px;
+}
+
+.container .yes .hint {
+  width: 271px;
+  height: 84px;
+  position: absolute;
+  left: 50%;
+  top: 320px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  line-height: 50px;
+  color: red;
+  display: none;
+}
+
+.container .yes .hint span {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+
+.container .yes .helpblock {
+  width: 265px;
+  margin-left: 277px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fbf0ef;
+  border: 1px solid #eeb5b0;
+  color: #d23f33;
+  padding: 2px 10px;
+  display: none;
+}
+
+.container .auth {
+  padding-bottom: 23px;
+  line-height: 36px;
+}
+
+.container .auth b {
+  padding-left: 368px;
+  line-height: 36px;
+}
+
+.container .auth .identifying {
+  margin-left: 15px;
+  width: 49px;
+  line-height: 36px;
+}
+
+.container .auth input {
+  outline: none;
+  width: 160px;
+  height: 36px;
+  padding: 2px;
+  padding-right: 2px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background: url(../../dist/img/img.06/-1.png) no-repeat 318px 5px;
+}
+
+.container .auth .img {
+  width: 87px;
+  height: 40px;
+  margin-left: 68px;
+}
+
+.container .auth .helpblock {
+  width: 100px;
+  margin-left: 26px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fbf0ef;
+  border: 1px solid #eeb5b0;
+  color: #d23f33;
+  padding: 2px 10px;
+  display: none;
+}
+
+.container .phoneauth {
+  padding-bottom: 23px;
+}
+
+.container .phoneauth b {
+  padding-left: 338px;
+  line-height: 36px;
+}
+
+.container .phoneauth .identifying {
+  margin-left: 15px;
+  width: 79px;
+  line-height: 36px;
+}
+
+.container .phoneauth .text {
+  outline: none;
+  width: 162px;
+  height: 36px;
+  padding: 2px;
+  padding-right: 2px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background: url(../../dist/img/img.06/-1.png) no-repeat 318px 5px;
+}
+
+.container .phoneauth .btn {
+  outline: none;
+  width: 114px;
+  height: 48px;
+  margin-left: 68px;
+}
+
+.container .phoneauth .hint {
+  width: 271px;
+  height: 84px;
+  position: absolute;
+  left: 50%;
+  top: 320px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  line-height: 84px;
+  color: red;
+  display: none;
+}
+
+.container .check {
+  padding-left: 447px;
+  line-height: 30px;
+}
+
+.container .check .checkbox {
+  width: auto;
+}
+
+.container .check .identifying {
+  width: 105px;
+}
+
+.container .check .identify {
+  width: 120px;
+}
+
+.container .check .go {
+  width: 200px;
+  margin-left: 200px;
+  color: #666666;
+}
+
+.container .check .go a {
+  color: #666666;
+}
+
+.container .check .helpblock {
+  width: 113px;
+  margin-left: -55px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fbf0ef;
+  border: 1px solid #eeb5b0;
+  color: #d23f33;
+  padding: 2px 10px;
+  display: none;
+}
+
+.container .now {
+  text-align: center;
+  padding-top: 54px;
+  padding-left: 88px;
+}
+
+.container .now input {
+  width: 405px;
+  height: 60px;
+  background-color: #ca151c;
+  color: #ffeaec;
+  text-align: center;
+  outline: none;
+}
+
+.container .company {
+  text-align: center;
+  padding-left: 64px;
+}
+
+.container .company img {
+  width: 322px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+.container .footer {
+  text-align: center;
+  color: #666666;
+  padding-bottom: 32px;
+}
+
+.container .footer p {
+  display: inline-block;
+}
+
+.container .footer img {
+  height: 36px;
+  width: 26px;
+}

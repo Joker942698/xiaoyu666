@@ -1,0 +1,275 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "微软雅黑";
+    font-size: 75%;
+    line-height: 1.5;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: none;
+}
+.list {
+    display: block;
+}
+.bigbigbig {
+    padding-bottom: 50px;
+    background-color: #f7f7f5;
+    // 第一行
+    .thrpic {
+        padding-top: 10px;
+        a {
+            float: left;
+            margin: 0 5px;
+        }
+        img {
+            width: 305px;
+            height: 148px;
+        }
+    }
+    .announcement {
+        .col-md-6 {
+            img {
+                width: 26px;
+                height: 26px;
+                margin: 0px auto 6px;
+                display: block;
+            }
+            a {
+                color: #464646;
+                text-decoration: none;
+            }
+            display: block;
+            width: 50%;
+            text-align: center;
+            float: left;
+            font-size: 12px;
+            color: #464646;
+            margin-top: 10px;
+            margin-left: -5px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        width: 223px;
+        height: 160px;
+        padding: 0 10px;
+        background: #ffffff;
+        .title {
+            width: 187px;
+            height: 14px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid #dedede;
+            overflow: hidden;
+            margin-top: 14px;
+            position: relative;
+            left: 15px;
+
+            .one {
+                width: 53px;
+                height: 14px;
+                font-size: 13px;
+                color: #000000;
+                line-height: 14px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-right: 20px;
+                float: left;
+            }
+            .two {
+                width: 114px;
+                height: 14px;
+                line-height: 14px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                display: block;
+                color: #979797;
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+    }
+    // 第二行
+    .module-hd {
+        height: 35px;
+        line-height: 35px;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        color: #333;
+        font-size: 20px;
+        margin-top: 15px;
+        span {
+            color: #666;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+    // 第三行
+    .firimg {
+        .col-md-9 {
+            padding-left: 0;
+        }
+        .col-md-3 {
+            padding-left: 0;
+            img {
+                display: block;
+                width: 290px;
+                height: 748px;
+            }
+        }
+        .goods-item {
+            width: 290px;
+            height: 369px;
+            float: left;
+            background: rgba(255, 255, 255, 1);
+            margin-bottom: 10px;
+            position: relative;
+            .floor-item-pic {
+                width: 150px;
+                height: 150px;
+                margin: 54px auto 20px;
+                position: relative;
+                img {
+                    width: 150px;
+                }
+                .floor-item-tag {
+                    width: 34px;
+                    height: 30px;
+                    background: #fe3047;
+                    position: absolute;
+                    right: -10px;
+                    top: 0px;
+                    color: #fff;
+                    font-size: 12px;
+                    border-radius: 50% 50% 50% 0;
+                    text-align: center;
+                    padding: 8px 5px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+            .pro-info {
+                .info-n {
+                    text-align: center;
+                    height: 17px;
+                    line-height: 17px;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #333;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    margin-bottom: 11px;
+                }
+                .info-sub {
+                    text-align: center;
+                    height: 14px;
+                    line-height: 14px;
+                    font: 12px;
+                    font-weight: 400;
+                    color: #b0b0b0;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    margin-bottom: 28px;
+                }
+                .info-p {
+                    text-align: center;
+                    color: #cc0000;
+                    font-weight: 500;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    // 第四行
+    .for {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        img {
+            width: 1172px;
+            height: 90px;
+        }
+    }
+    // 七八行
+    .like {
+        margin-top: 30px;
+        .left {
+            float: left;
+            font-size: 16px;
+        }
+        .rig {
+            float: right;
+            a {
+                color: #dd2434;
+                text-decoration: none;
+            }
+        }
+    }
+    .content {
+        // text-align: center;
+        a {
+            font-size: 14px;
+            color: #666;
+            text-decoration: none;
+        }
+        .name {
+            height: 42px;
+        }
+        .price {
+            font-size: 14px;
+            color: #dd2434;
+            float: none;
+            margin-right: 0;
+            height: auto;
+        }
+        display: block;
+        float: left;
+        width: 234px;
+        height: 218px;
+        border: 1px solid #ddd;
+        padding: 0 10px;
+        .pic {
+            text-align: center;
+            img {
+                width: 150px;
+            }
+        }
+    }
+    .scroller {
+        height: 218px;
+        overflow: hidden;
+    }
+}

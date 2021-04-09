@@ -1,0 +1,335 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "微软雅黑";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.first {
+  .logo {
+    width: 230px;
+    height: 116px;
+  }
+}
+// xxxx有限公司
+.company {
+  font-size: 12px;
+  img {
+    width: 322px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+  text-align: center;
+  padding-left: 64px;
+}
+// 许可证
+.footer {
+  font-size: 12px;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 32px;
+  p {
+    display: inline-block;
+  }
+  img {
+    height: 36px;
+    width: 26px;
+  }
+}
+.hint {
+  width: 271px;
+  height: 84px;
+  position: absolute;
+  left: 50%;
+  top: 320px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  line-height: 84px;
+  color: red;
+  display: none;
+}
+.worry {
+  width: 271px;
+  height: 84px;
+  position: absolute;
+  left: 50%;
+  top: 320px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  line-height: 84px;
+  color: red;
+  display: none;
+}
+// 图片
+.body {
+  padding-top: 50px;
+  img {
+    margin-top: -40px;
+    margin-left: 50px;
+    width: 360px;
+  }
+}
+// 最大外边框  最后去掉
+.wrap {
+  /* 本案例需要的css样式 */
+  padding-left: 80px;
+  .tab {
+    width: 450px;
+    margin: 0 auto 50px;
+    line-height: 1.5;
+    .tab-hd {
+      float: left;
+      margin-left: 8px;
+      overflow: hidden;
+      zoom: 1;
+      .active {
+        color: #767676;
+      }
+      li {
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 16px;
+        line-height: 16px;
+        float: left;
+        color: #0186d1;
+        text-align: center;
+        cursor: pointer;
+        border-right: 2px solid #ccc;
+        li:last-child {
+          border-right: none;
+        }
+      }
+    }
+    .register {
+      float: right;
+      padding-right: 53px;
+      a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #666666;
+      }
+    }
+    .tab-bd {
+      li {
+        display: none;
+        padding: 20px;
+        font-size: 12px;
+      }
+      input {
+        outline: none;
+        width: 375px;
+        height: 35px;
+        padding: 2px;
+        padding-right: 2px;
+        background-color: white;
+        border: 1px solid #cccccc;
+        border-radius: 3px;
+        background: url(../../dist/img/img.06/-1.png) no-repeat 343px 5px;
+        margin-bottom: 20px;
+      }
+      .two {
+        .verify {
+          width: 140px;
+        }
+        .helpblock {
+          width: 375px;
+          margin-left: 0px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          line-height: 30px;
+          display: inline-block;
+          vertical-align: middle;
+          background-color: #fbf0ef;
+          border: 1px solid #eeb5b0;
+          color: #d23f33;
+          padding: 2px 10px;
+          opacity: 0;
+        }
+        .img {
+          width: 70px;
+          padding: 0;
+          margin-left: 120px;
+          line-height: 30px;
+          text-align: center;
+        }
+        .agan {
+          width: 84px;
+          line-height: 30px;
+          padding: 0;
+          a {
+            text-decoration: none;
+          }
+        }
+        .note {
+          .tex {
+            margin-left: -15px;
+            background: url(../../dist/img/img.06/1.png) no-repeat 343px 5px;
+          }
+          .but {
+            margin-left: 20px;
+            width: 108px;
+            font-size: 12px;
+            border: none;
+          }
+        }
+        .gogogo {
+          height: 53px;
+          line-height: 53px;
+          color: white;
+          background: #ca151d;
+          margin-left: 15px;
+        }
+      }
+      .one {
+        .upwd {
+          background: url(../../dist/img/img.06/1.png) no-repeat 343px 5px;
+        }
+        .verify {
+          width: 140px;
+        }
+        .helpblock {
+          width: 375px;
+          margin-left: 0px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          line-height: 30px;
+          display: inline-block;
+          vertical-align: middle;
+          background-color: #fbf0ef;
+          border: 1px solid #eeb5b0;
+          color: #d23f33;
+          padding: 2px 10px;
+          opacity: 0;
+        }
+        .img {
+          width: 70px;
+          padding: 0;
+          margin-left: 120px;
+          line-height: 30px;
+          text-align: center;
+        }
+        .agan {
+          width: 84px;
+          line-height: 30px;
+          padding: 0;
+          a {
+            text-decoration: none;
+          }
+        }
+        .forget {
+          text-indent: 340px;
+          padding-bottom: 20px;
+          margin-left: -20px;
+          a {
+            color: #666666;
+          }
+        }
+        .gogogo {
+          height: 53px;
+          line-height: 53px;
+          color: white;
+          background: #ca151d;
+          margin-left: 15px;
+        }
+      }
+
+      .three {
+        .upwd {
+          background: url(../../dist/img/img.06/1.png) no-repeat 343px 5px;
+        }
+        .verify {
+          width: 140px;
+        }
+        .helpblock {
+          width: 375px;
+          margin-left: 0px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          line-height: 30px;
+          display: inline-block;
+          vertical-align: middle;
+          background-color: #fbf0ef;
+          border: 1px solid #eeb5b0;
+          color: #d23f33;
+          padding: 2px 10px;
+          opacity: 0;
+        }
+        .img {
+          width: 70px;
+          padding: 0;
+          margin-left: 120px;
+          line-height: 30px;
+          text-align: center;
+        }
+        .agan {
+          width: 84px;
+          line-height: 30px;
+          padding: 0;
+          a {
+            text-decoration: none;
+          }
+        }
+        .note {
+          .tex {
+            margin-left: -15px;
+            background: url(../../dist/img/img.06/1.png) no-repeat 343px 5px;
+          }
+        }
+        .gogogo {
+          height: 53px;
+          line-height: 53px;
+          color: white;
+          background: #ca151d;
+          margin-left: 15px;
+        }
+      }
+
+      .thisclass {
+        display: list-item;
+      }
+    }
+  }
+}
+.friend {
+  position: relative;
+  top: -70px;
+  padding-left: 780px;
+  a {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "q": {
+        "thumbnail": {
+            "q": "https://image.ztemall.com/88e7f284d84dc83ec19f305e86b5134d.png?x-oss-process=image/resize,w_750,h_750",
+            "w": "https://image.ztemall.com/ed0a66a453f7d9c5fca9de1dc669563f.jpg?x-oss-process=image/resize,w_750,h_750",
+            "e": "https://image.ztemall.com/f43222cc4d2f023599e051a4d979834f.png?x-oss-process=image/resize,w_750,h_750",
+            "r": "https://image.ztemall.com/a9061b8803470d33657e889e7c59a87e.jpg?x-oss-process=image/resize,w_750,h_750",
+            "a": "https://image.ztemall.com/2dcc601531b478ceb98bbdf7359858ec.jpg?x-oss-process=image/resize,w_750,h_750",
+            "s": "https://image.ztemall.com/3d44ccb52076692f3c503bb3d77e0de6.jpg?x-oss-process=image/resize,w_750,h_750",
+            "d": "https://image.ztemall.com/84c9c21de936ac8576481d89572fd803.jpg?x-oss-process=image/resize,w_750,h_750",
+            "f": "https://image.ztemall.com/de30020d7fa12f4be1208cd91219b494.jpg?x-oss-process=image/resize,w_750,h_750",
+            "z": "https://image.ztemall.com/168394d3d95d878917e4f31566702adf.jpg?x-oss-process=image/resize,w_750,h_750"
+        },
+        "name": "中兴天机Axon 20 5G",
+        "introduce": " 视觉进化，轻薄OLED屏 6400万四摄 屏幕下摄像头 【套装版：手机+手表】",
+        "price": "2198.00",
+        "special ": "yes",
+        "network": "5G",
+        "edition": {
+            "one": "999999",
+            "two": "8GB+128GB",
+            "thr": "6GB+256GB"
+        },
+        "color": {
+            "one": {
+                "src": "https://image.ztemall.com/88e7f284d84dc83ec19f305e86b5134d.png?x-oss-process=image/resize,w_220,h_220",
+                "name": "黑洞引力",
+                "have": "0",
+                "pic1": "999",
+                "pic2": "1999",
+                "pic3": "19999"
+            },
+            "two": {
+                "src": "https://image.ztemall.com/f43222cc4d2f023599e051a4d979834f.png?x-oss-process=image/resize,w_220,h_220",
+                "name": "流光海盐",
+                "have": "0",
+                "pic1": "999",
+                "pic2": "1999",
+                "pic3": "19999"
+            },
+            "thr": {
+                "src": "https://image.ztemall.com/f5aa1efe5e473e696c565da8e1dfcc67.png?x-oss-process=image/resize,w_220,h_220",
+                "name": "幻影橙风",
+                "have": "3",
+                "pic1": "999",
+                "pic2": "1999",
+                "pic3": "19999"
+            },
+            "for": {
+                "src": "https://image.ztemall.com/88e7f284d84dc83ec19f305e86b5134d.png?x-oss-process=image/resize,w_220,h_220",
+                "name": "黑洞引力套装版",
+                "have": "2",
+                "pic1": "999",
+                "pic2": "1999",
+                "pic3": "19999"
+            }
+        }
+    }
+}

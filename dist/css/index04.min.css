@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+  font-size: 75%;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+.gode-shop {
+  font-size: 16px;
+  padding: 50px 0;
+  padding-left: 50px;
+  margin: 30px 0;
+  line-height: 2;
+  color: #666666;
+  background: #ffffff;
+}
+
+.gode-shop .font {
+  font-size: 40px;
+}
+
+.like {
+  margin-top: 30px;
+}
+
+.like .left {
+  float: left;
+  font-size: 16px;
+}
+
+.like .rig {
+  float: right;
+}
+
+.like .rig a {
+  color: #dd2434;
+  text-decoration: none;
+}
+
+.content {
+  display: block;
+  float: left;
+  width: 234px;
+  height: 218px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+}
+
+.content a {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+}
+
+.content .name {
+  height: 42px;
+}
+
+.content .price {
+  font-size: 14px;
+  color: #dd2434;
+  float: none;
+  margin-right: 0;
+  height: auto;
+}
+
+.content .pic {
+  text-align: center;
+}
+
+.content .pic img {
+  width: 150px;
+}
+
+.scroller {
+  height: 218px;
+  overflow: hidden;
+}
+
+.scroller .switchable-conten {
+  transition: all 0.8s;
+}

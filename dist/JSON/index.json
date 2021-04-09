@@ -1,0 +1,39 @@
+{
+    "01": {
+        "namef": "中兴",
+        "name": " Axon 20 5G 新年至尊版",
+        "price": "3498.00",
+        "src": "../../dist/img/img.02/8ce2ef35c721c94674e5f6f91815c9b0.png",
+        "act": ""
+    },
+    "02": {
+        "style": " width: 46px;display: inline-block;background-color: #e12334;height: 20px;line-height: 20px;margin-left: 6px;font-size: 12px;font-weight: normal;color: #ffffff;text-align: center;vertical-align: middle;border-radius: 3px;",
+        "namef": "中兴",
+        "name": "Axon 20 TPU保护壳",
+        "price": "69.00",
+        "src": "../../dist/img/img.02/db15f2ac0379739eae6bcfbb7d05ae01.jpg",
+        "act": "有赠品"
+    },
+    "03": {
+        "namef": "中兴",
+        "name": "Axon 20 5G",
+        "price": "2198.00",
+        "src": "../../dist/img/img.02/88e7f284d84dc83ec19f305e86b5134d.png",
+        "act": " "
+    },
+    "04": {
+        "namef": "中兴",
+        "name": "Axon 11 SE 5G TPU保护套",
+        "price": "39.00",
+        "src": "../../dist/img/img.02/8ae0985ffc585b3552391717f668fd9a.jpg",
+        "act": ""
+    },
+    "05": {
+        "style": " width: 46px;display: inline-block;background-color: #e12334;height: 20px;line-height: 20px;margin-left: 6px;font-size: 12px;font-weight: normal;color: #ffffff;text-align: center;vertical-align: middle;border-radius: 3px;",
+        "namef": " ",
+        "name": "天机Axon 11 SE 5G钢化膜",
+        "price": "39.00",
+        "src": "../../dist/img/img.02/293fd50c402dfe14b4808aea6378ad27.jpg",
+        "act": "有赠品"
+    }
+}
